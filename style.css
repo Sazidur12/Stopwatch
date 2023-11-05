@@ -1,0 +1,55 @@
+body {
+  font-family: arial;
+  background: #030311;
+}
+
+#mainstopwatch {
+  width: 300px;
+  margin: 100px auto;
+  padding: 60px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 23px;
+  background: #0d0d2b;
+}
+
+
+#mainstopwatch span {
+  width: 55px;
+  color: #ffffff;
+  margin: 3px;
+  padding: 10px;
+  border-radius: 12px;
+  display: inline-block;
+
+  background: #3b3b68;
+}
+
+#mainstopwatch button {
+  border: none;
+  -webkit-appearance: none;
+  font-size: 22px;
+  width: 140px;
+  height: 55px;
+  color: white;
+  background-color: #2f70ff;
+  border-radius: 33px;
+  cursor: pointer;
+  transition: .3s;
+
+}
+
+#mainstopwatch button:nth-of-type(2) {
+  background-color: #c1a02a;
+}
+
+#mainstopwatch button:last-child {
+  margin-top: 15px;
+  background-color: #ff2e2e;
+}
+
+#mainstopwatch button:hover {
+  background: #333;
+  color: #e0e0e0;
+  border-radius: 38px;
+}
